@@ -1,0 +1,150 @@
+{
+  "home_page": {
+    "header_section": {
+      "scroll_title": "Scroll to bottom"
+    },
+    "form_section": {
+      "upload_photo_title": "Click to upload a photo (Optional)",
+      "about_you_title": "About You",
+      "generate_button_title": "Generate Style",
+      "weight_field": {
+        "weight_title": "Your Weight",
+        "weight_unit": "kg"
+      },
+      "height_field": {
+        "height_title": "Your Height",
+        "height_unit": "cm"
+      },
+      "age_field": {
+        "age_title": "Your Age",
+        "age_unit": "years"
+      },
+      "style_field": {
+        "style_title": "Select Your Style",
+        "styles_translated": [
+          "Casual",
+          "Business Casual",
+          "Formal",
+          "Athleisure",
+          "Streetwear",
+          "Bohemian",
+          "Vintage",
+          "Preppy",
+          "Punk",
+          "Minimalist",
+          "Hipster",
+          "Festival"
+        ],
+        "styles": [
+          "Casual",
+          "Business Casual",
+          "Formal",
+          "Athleisure",
+          "Streetwear",
+          "Bohemian",
+          "Vintage",
+          "Preppy",
+          "Punk",
+          "Minimalist",
+          "Hipster",
+          "Festival"
+        ]
+      },
+      "gender_field": {
+        "gender_title": "About You",
+        "genders_translated": [
+          "Male",
+          "Female",
+          "Other"
+        ],
+        "genders": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      },
+      "body_type_field": {
+        "body_type_title": "Body Type (Optional)",
+        "body_types_translated": [
+          "Apple Shape",
+          "Pear Shape",
+          "Hourglass Shape",
+          "Rectangle Shape",
+          "Inverted Triangle"
+        ],
+        "body_types": [
+          "Apple Shape",
+          "Pear Shape",
+          "Hourglass Shape",
+          "Rectangle Shape",
+          "Inverted Triangle"
+        ]
+      },
+      "season_field": {
+        "season_field_title": "Select Season (Optional)",
+        "seasons_translated": [
+          "Summer",
+          "Winter",
+          "Fall",
+          "Spring"
+        ],
+        "seasons": [
+          "Summer",
+          "Winter",
+          "Fall",
+          "Spring"
+        ]
+      }
+    },
+    "last_outfits_section": {
+      "last_outfits_title": "Last Outfits"
+    },
+    "aboutus_section": {
+      "title": "About Us",
+      "features": [
+        {
+          "title": "AI generated Outfit Recommendations",
+          "description": "Our application uses advanced AI technology to offer personalized outfit recommendations based on your preferences and the latest fashion trends."
+        },
+        {
+          "title": "Seamless Shopping Experience",
+          "description": "With integrated Amazon shopping, you can directly find and purchase the clothes and accessories from your recommended outfits without leaving the app."
+        },
+        {
+          "title": "Visual Previews",
+          "description": "Get a sneak peek of how each recommended outfit would look on you with our AI-driven outfit visualization feature."
+        },
+        {
+          "title": "Expanded Shop Selection (coming soon)",
+          "description": "We're working on adding more popular and diverse shops to our platform to give you even more clothing options and styles."
+        },
+        {
+          "title": "Latest Fashion Trends (coming soon)",
+          "description": "Stay ahead of the fashion curve with updates on the latest trends. Our app will soon incorporate trend forecasts into outfit recommendations."
+        },
+        {
+          "title": "Digital Wardrobe (coming soon)",
+          "description": "Manage and organize your clothes digitally. This upcoming feature will allow you to keep track of what you own, plan outfits with your existing wardrobe, and identify what you might need to add."
+        }
+      ]
+    },
+    "contactus_section": {
+      "title": "Contact Us",
+      "description": "have any questions or queries? We are always here to help you",
+      "name": "Name",
+      "email": "Email",
+      "message": "Type Your Message",
+      "submit_button": "Submit"
+    },
+    "subscribe_section": {
+      "title": "Subscribe",
+      "description": "Stay up to date with our monthly newsletter to be the 1st one to experience the new and beta features",
+      "name": "Name",
+      "email": "Email",
+      "subscribe_button": "Subscribe"
+    }
+  },
+  "footer": {
+    "imprint_link": "Imprint"
+  }
+}

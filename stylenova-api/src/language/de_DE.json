@@ -1,0 +1,150 @@
+{
+  "home_page": {
+    "header_section": {
+      "scroll_title": "Scrolle nach unten"
+    },
+    "form_section": {
+      "upload_photo_title": "Lade ein Bild hoch (optional)",
+      "about_you_title": "Über dich",
+      "generate_button_title": "Outfit generieren",
+      "weight_field": {
+        "weight_title": "Gewicht",
+        "weight_unit": "kg"
+      },
+      "height_field": {
+        "height_title": "Größe",
+        "height_unit": "cm"
+      },
+      "age_field": {
+        "age_title": "Alter",
+        "age_unit": "Jahre"
+      },
+      "style_field": {
+        "style_title": "Wähle Sie Ihren Style",
+        "styles_translated": [
+          "Casual",
+          "Business Casual",
+          "Formell",
+          "Sportlich",
+          "Streetwear",
+          "Bohemian",
+          "Vintage",
+          "Preppy",
+          "Punk",
+          "Minimalistisch",
+          "Hipster",
+          "Festival"
+        ],
+        "styles": [
+          "Casual",
+          "Business Casual",
+          "Formal",
+          "Athleisure",
+          "Streetwear",
+          "Bohemian",
+          "Vintage",
+          "Preppy",
+          "Punk",
+          "Minimalist",
+          "Hipster",
+          "Festival"
+        ]
+      },
+      "gender_field": {
+        "gender_title": "Über dich",
+        "genders_translated": [
+          "Männlich",
+          "Weiblich",
+          "Divers"
+        ],
+        "genders": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      },
+      "body_type_field": {
+        "body_type_title": "Körperform (optional)",
+        "body_types_translated": [
+          "Apfel",
+          "Birne",
+          "Sanduhr",
+          "Rechteckig",
+          "Umgekehrtes Dreieck"
+        ],
+        "body_types": [
+          "Apple Shape",
+          "Pear Shape",
+          "Hourglass Shape",
+          "Rectangle Shape",
+          "Inverted Triangle"
+        ]
+      },
+      "season_field": {
+        "season_field_title": "Jahreszeit (optional)",
+        "seasons_translated": [
+          "Sommer",
+          "Winter",
+          "Herbst",
+          "Frühling"
+        ],
+        "seasons": [
+          "Summer",
+          "Winter",
+          "Fall",
+          "Spring"
+        ]
+      }
+    },
+    "last_outfits_section": {
+      "last_outfits_title": "Letzte Outfits"
+    },
+    "aboutus_section": {
+      "title": "Feautures",
+      "features": [
+        {
+          "title": "AI generierte Outfit-Empfehlungen",
+          "description": "Unsere Anwendung verwendet fortschrittliche KI-Technologie, um personalisierte Outfit-Empfehlungen basierend auf deinen Vorlieben und den neuesten Modetrends anzubieten."
+        },
+        {
+          "title": "Nahtloses Einkaufserlebnis",
+          "description": "Mit integriertem Amazon-Shopping kannst du direkt die Kleidung und Accessoires aus deinen empfohlenen Outfits finden und kaufen."
+        },
+        {
+          "title": "Visuelle Vorschauen",
+          "description": "Erhalte einen Vorgeschmack darauf, wie jedes empfohlene Outfit an dir aussehen würde, mit unserer AI-gesteuerten Funktion zur Visualisierung von Outfits."
+        },
+        {
+          "title": "Erweiterte Shop-Auswahl (kommt bald)",
+          "description": "Wir arbeiten daran, weitere beliebte und vielfältige Geschäfte in unsere Plattform aufzunehmen, um dir noch mehr Kleidungsoptionen und -stile anzubieten."
+        },
+        {
+          "title": "Neueste Modetrends (kommt bald)",
+          "description": "Bleib mit Updates zu den neuesten Trends einen Schritt voraus. Unsere App wird bald Trendprognosen in die Outfit-Empfehlungen integrieren."
+        },
+        {
+          "title": "Digitale Garderobe (kommt bald)",
+          "description": "Verwalte und organisiere deine Kleidung digital. Diese kommende Funktion ermöglicht es dir, den Überblick darüber zu behalten, was du besitzt, Outfits mit deiner vorhandenen Garderobe zu planen und zu erkennen, was du möglicherweise hinzufügen müsstest."
+        }
+      ]
+    },
+    "contactus_section": {
+      "title": "Kontaktiere uns",
+      "description": "Hast du Fragen oder Anregungen?",
+      "name": "Name",
+      "email": "Email",
+      "message": "Nachricht",
+      "submit_button": "Senden"
+    },
+    "subscribe_section": {
+      "title": "Abonnieren",
+      "description": "Werde bei updates informiert, um als Erster die neuen Funktionen und Betafunktionen zu erleben.",
+      "name": "Name",
+      "email": "Email",
+      "subscribe_button": "Abonnieren"
+    }
+  },
+  "footer": {
+    "imprint_link": "Impressum"
+  }
+}

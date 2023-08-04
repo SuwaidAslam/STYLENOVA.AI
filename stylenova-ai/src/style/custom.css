@@ -1,0 +1,710 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-button {
+  width: 150px;
+  /* Adjust the width value to your desired width */
+}
+
+.styleBtn.active {
+  border: 0.5px solid white;
+  /* Replace "red" with the desired border color */
+}
+
+.stylegender.active {
+  border: 0.5px solid white;
+  /* Replace "red" with the desired border color */
+}
+
+.upload-button {
+  color: white;
+}
+
+.card {
+  max-width: 45%;
+  background-color: #1a1b1d;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.subscribe_container {
+  background-color: #0C0D0F;
+}
+
+.dropdown-menu {
+  position: absolute;
+  will-change: transform;
+  top: 5px;
+  left: -60px;
+  transform: translate3d(-45px, 36px, 0px);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.data_container Button,
+.contact_form_container Button {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #0c0d0f;
+  margin-bottom: 20px;
+}
+
+.data_container input {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #748399;
+  background-color: transparent;
+  border: none;
+  width: 200px;
+  padding: 0;
+}
+
+.btn_form,
+.Select_Image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding: 10px;
+  border: 1px solid #323841;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #748399;
+}
+
+.Select_Image {
+  border-style: dashed;
+}
+
+.form-control:focus {
+  color: #748399;
+  background-color: transparent;
+  border-color: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.SelectStyle_container,
+.AboutYou_container {
+  width: 100%;
+}
+
+.button_container Button {
+  background-color: #1a1b1d;
+  color: #748399;
+  border-radius: 20px;
+  width: 31%;
+  margin-bottom: 0px;
+}
+
+.data_container {
+  background-color: #0C0D0F;
+}
+
+.Latestoutfit_container {
+  background-color: #1a1b1d;
+}
+
+.List-body,
+.result_List-body {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: -23px;
+  width: 260px;
+  height: 48px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.Latestoutfit_container .rec-pagination,
+.result_container .rec.rec-arrow,
+.result_container .rec-pagination {
+  display: none;
+}
+
+.Latestoutfit_container .List-image-container,
+.data_container .image-select-img,
+.result_container .result_List-image-container {
+  width: 320px;
+  height: 250px;
+}
+
+.Latestoutfit_container .List-image-container img,
+.data_container .image-select-img img,
+.result_container .result_List-image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.List-related-result-body h3 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result_List-body button {
+  margin-bottom: 0px;
+}
+
+.footer-top h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #0C0D0F;
+}
+
+.footer-bottom p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.subscribe_container h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.subscribe_container p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #748399;
+}
+
+.subscribe_container input,
+.subscribe_container button {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #748399;
+}
+
+.About_Us_container {
+  background-color: #0C0D0F;
+  ;
+}
+
+.About_Us_container h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.card-body h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.card-body p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #748399;
+}
+
+.Latestoutfit_container h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.result_container h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.SelectStyle_container h3,
+.AboutYou_container h3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.banner_container h1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.banner_container a {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.data_container .image-select-img {
+  width: 300px;
+  height: 300px;
+}
+
+.List-related-result .List-image-container img {
+  width: 80px;
+  height: 80px;
+}
+
+.List-related-result {
+  background: #1A1B1D;
+  padding: 5px 10px;
+}
+
+.banner_container {
+  background-image: url(../images/banner_section.png);
+  height: 120vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.form_container .button_container .selected {
+  border: 1px solid #fff;
+}
+
+.ScrolDown_button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 100px;
+}
+
+.ScrolDown_button:hover,
+.ScrolDown_button:active {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.related-result-container .List-related-result-body h3 {
+  font-family: 'Helvetica' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #FFFFFF !important;
+  text-align: start;
+  width: 90px;
+}
+
+.ScrolDown_button p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.form_container label {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form_container input {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #748399;
+}
+
+.EmailUs-section {
+  background-color: #1a1b1d;
+
+}
+
+.EmailUs-section p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.EmailUs-section input,
+.EmailUs-section button {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #748399;
+}
+
+.EmailUs-section .btn_form {
+  border: 1px solid;
+  border-color: #748399;
+}
+
+.EmailUs-section .width {
+  padding-bottom: 100px;
+}
+
+.dropdown-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  /* padding: 10px; */
+  border: 1px solid #323841;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #748399;
+}
+
+
+.footer-bottom {
+  background-color: #1a1b1d;
+}
+
+
+
+@media only screen and (min-width: 767.98px) {
+  .footer-top-container {
+    align-items: flex-start !important;
+  }
+
+  .Latestoutfit_container .List-image-container,
+  .data_container .image-select-img,
+  .result_container .result_List-image-container {
+    width: 900px;
+    height: 600px;
+  }
+
+  .Latestoutfit_container .List-image-container img,
+  .data_container .image-select-img img,
+  .result_container .result_List-image-container img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .Latestoutfit_container .rec.rec-arrow {
+    display: block;
+  }
+
+  .EmailUs-section .width {
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 991.98px) {
+  .card {
+    max-width: 30%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .subscribe_container .contact_form_container {
+    width: 50% !important;
+  }
+
+  .SelectStyle_container {
+    width: 80%;
+  }
+
+  .AboutYou_container {
+    width: 60%;
+  }
+
+  .form_container Button {
+    width: 50%;
+  }
+
+  .icon-container {
+    width: 30% !important;
+  }
+
+  .SelectStyle_container .button_container Button {
+    width: 30%;
+  }
+
+  .footer-top h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: #0C0D0F;
+  }
+
+  .footer-top h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #0C0D0F;
+  }
+
+  .footer-top a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #0C0D0F;
+  }
+
+  .footer-bottom p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .subscribe_container h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .About_Us_container h2,
+  .EmailUs-section h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .card-body h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  .card-body p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #748399;
+  }
+
+  .Latestoutfit_container h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .result_container h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .SelectStyle_container h3,
+  .AboutYou_container h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .banner_container h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+  .data_container .image-select-img {
+    width: 600px;
+    height: 450px;
+  }
+
+  .ScrolDown_button {
+    width: 170px !important;
+  }
+
+  .ScrolDown_button p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .form_container label {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .form_container input {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #748399;
+  }
+
+
+}
